@@ -43,7 +43,9 @@ ol {
   list-style: none;
 }
 /* ======== HEADER ============*/
-
+.border {
+border-bottom: 1px solid #ECECEC;
+}
 .page-header-conteiner {
   display: flex;
   align-items: center;
@@ -101,14 +103,12 @@ ol {
 .contact-phone-number:focus {
   color: var(--primery-accent-color);
 }
-
 .conteiner {
-  width: 1200px;
+  width: 1170px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
 }
-
 .box-header {
   color: #2196f3;
 }
@@ -206,7 +206,7 @@ ol {
 }
 .work-box {
   display: flex;
-  flex-wrap: wrap;
+  
 }
 .work-list {
   font-weight: 700;
@@ -226,7 +226,7 @@ ol {
 }
 .work-team {
   display: flex;
-  flex-wrap: wrap;
+  
 }
 .people-box {
   margin-right: 30px;
@@ -276,11 +276,21 @@ ol {
   background-color: var(--secondaty-bg-color);
   text-align: center;
   margin-right: 8px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
+
 }
 .model-open-buttonn:hover,
 .model-open-buttonn:focus {
   background: var(--primery-accent-color);
   color: var(--primary-bg-color);
+}
+.list-blok {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 20px;
 }
 .list-pro {
   font-weight: 700;
