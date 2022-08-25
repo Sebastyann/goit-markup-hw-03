@@ -301,7 +301,7 @@ ol {
   background-color: var(--secondaty-bg-color);
   text-align: center;
   border-radius: 4 px;
-    padding-top: 6px;
+  padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 22px;
   padding-right: 22px;
@@ -317,7 +317,7 @@ ol {
   padding-bottom: 20px;
   padding-top: 20px;
   padding: 20px 24px;
-  border: 1px solid #EEEEEE;
+  border: 1px solid #eeeeee;
   border-top: 0;
 }
 .list-pro {
